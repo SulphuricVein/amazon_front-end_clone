@@ -1,0 +1,514 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(22, 21, 21);
+}
+#navbar {
+  height: 60px;
+  width: auto;
+  background-color: #0f1111;
+  display: flex;
+}
+#nav-logo {
+  height: 50px;
+  width: 160px;
+}
+#LOGO {
+  background-image: url("47b7bdac4285ee24654ca7d68cf06351.png");
+
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border {
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
+#nav-address {
+  color: white;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  top: 6px;
+}
+#ad-fir {
+  font-weight: 0.85rem;
+  color: #cccccc;
+}
+#ad-se {
+  font-weight: 1rem;
+}
+.add-icon {
+  display: flex;
+}
+#nav-search {
+  height: 60px;
+  width: 382px;
+  display: flex;
+  margin-left: 20px;
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  align-content: center;
+}
+#search-icon {
+  height: 44px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px 4px 4px 4px;
+}
+#search-bar {
+  width: 278.25px;
+  height: 40px;
+  border-radius: 4px 4px 4px 4px;
+}
+#selectid {
+  width: 52px;
+  height: 44px;
+  border-radius: 4px 4px 4px 4px;
+}
+#country {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#language {
+  background-color: transparent;
+  border: none;
+}
+#accounts {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#accounts1 {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+}
+#return {
+  margin-left: 10px;
+  color: white;
+  position: relative;
+  top: 10px;
+}
+#returns {
+  font-size: 12px;
+}
+#Orders {
+  font-size: 14px;
+  font-weight: bold;
+}
+#smallbar {
+  height: 39px;
+  color: white;
+  background-color: #222f38;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#bleh a {
+  display: inline;
+  margin-left: 5px;
+}
+#bleh {
+  width: 70%;
+  font-size: 0.85rem;
+}
+#shopdeals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+#all {
+  display: inline;
+}
+#cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero {
+  background-image: url(hero.jpg);
+  background-size: cover;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+
+  align-items: flex-end;
+}
+#heromessage {
+  display: flex;
+  height: 40px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+#heromessage a {
+  text-decoration: none;
+  color: rgb(4, 4, 189);
+}
+#item {
+  background-color: rgb(205, 205, 205);
+}
+#first-row {
+  display: flex;
+}
+#second-row {
+  display: flex;
+}
+#third-row {
+  display: flex;
+}
+#one {
+  width: 300px;
+  height: 420px;
+  background-color: rgb(253, 252, 252);
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#two {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#three {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#four {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#five {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#six {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#seven {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#eight {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#nine {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#item h2 {
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+}
+#item span {
+  position: relative;
+  top: 360px;
+  left: 100px;
+  bottom: 20px;
+  font-size: 13px;
+  font-weight: lighter;
+  color: #007185;
+}
+#itom {
+  background-color: transparent;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 260px;
+  height: 270px;
+  padding: 10px;
+  background-image: url("electronics1.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#itom2 {
+  background-color: transparent;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 260px;
+  height: 270px;
+  padding: 10px;
+  background-image: url("persona.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#itom3 {
+  background-color: transparent;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 260px;
+  height: 270px;
+  padding: 10px;
+  background-image: url("three.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#itom4 {
+  background-color: transparent;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 260px;
+  height: 270px;
+  padding: 10px;
+  background-image: url("four.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#itom5 {
+  background-color: transparent;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 260px;
+  height: 270px;
+  padding: 10px;
+  background-image: url("six.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#itom6 {
+  background-color: transparent;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 260px;
+  height: 270px;
+  padding: 10px;
+  background-image: url("seven.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#itom7 {
+  background-color: transparent;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 260px;
+  height: 270px;
+  padding: 10px;
+  background-image: url("pet.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#itom8 {
+  background-color: transparent;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 260px;
+  height: 270px;
+  padding: 10px;
+  background-image: url("eight.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#itom9 {
+  background-color: transparent;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 260px;
+  height: 270px;
+  padding: 10px;
+  background-image: url("nine.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#back2top {
+  background-color: #222f38;
+  font-size: 13px;
+  font-weight: bold;
+  height: 40px;
+  color: white;
+  position: relative;
+
+  top: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#first-line {
+  height: 350px;
+  background-color: #192127;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+#alpha {
+  height: 220px;
+  font-size: 14px;
+}
+#beta {
+  height: 220px;
+  font-size: 14px;
+}
+#omega {
+  height: 220px;
+  font-size: 14px;
+}
+#first-line h4 {
+  color: white;
+}
+#first-line p {
+  color: white;
+}
+#second-line {
+  background-color: #192127;
+  height: 70px;
+  border-top: solid white 0.001px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icon2 {
+  width: 90.38px;
+  height: 68px;
+  background-image: url("White-Amazon-Logo-Background-PNG-Image.png");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+#englis {
+  width: 90.38px;
+  height: 68px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: lighter;
+}
+#border1 {
+  display: flex;
+  height: 20px;
+  padding: 10px;
+  width: 140px;
+  border: 1px;
+  border-style: outset;
+}
+#border2 {
+  display: flex;
+  height: 20px;
+  padding: 10px;
+  width: 110px;
+  border: 1px;
+  border-style: outset;
+}
+#dollars {
+  margin-left: 30px;
+  width: 90.38px;
+  height: 68px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: lighter;
+}
+#border3 {
+  display: flex;
+  height: 20px;
+  padding: 10px;
+  width: 110px;
+  border: 1px;
+  border-style: outset;
+}
+#indian {
+  display: flex;
+
+  margin-left: 30px;
+  width: 90.38px;
+  height: 68px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: lighter;
+}
+#indian pre {
+  position: relative;
+  bottom: 9px;
+}
+#lastline {
+  height: 77px;
+  background-color: #131a22;
+  color: white;
+}
+#to {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+#too {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
